@@ -51,8 +51,8 @@ traffic_analyser/ │ ├── main.py # Main script to run the traffic analysi
     Place the YOLO model files (yolov8n.pt, yolov8_vehicle.pt, yolov8_plate.pt) in the models/ directory.
 4. Install additional tools:
     Install EasyOCR for license plate recognition:
-
-pip install easyocr
+    ```bash
+    pip install easyocr
 
 ## Usage
 
@@ -92,13 +92,19 @@ pip install easyocr
 The project uses the following libraries:
 
 > OpenCV - For video processing and display.
-> Ultralytics YOLO - For vehicle detection.
-> EasyOCR - For license plate recognition.
-> NumPy - For numerical operations.
-> PyTorch - For running the YOLO model.
-> Install all dependencies using:
-    pip install -r requirements.txt
 
+> Ultralytics YOLO - For vehicle detection.
+
+> EasyOCR - For license plate recognition.
+
+> NumPy - For numerical operations.
+
+> PyTorch - For running the YOLO model.
+
+> Install all dependencies using:
+    ```bash
+    pip install -r requirements.txt
+    ```
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
