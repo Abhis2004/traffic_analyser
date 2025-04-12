@@ -8,7 +8,7 @@ from utils.weather_detection import detect_weather
 from utils.overlay_display import draw_overlays
 
 # Video settings
-VIDEO_PATH = "data/test_video2.mp4"
+VIDEO_PATH = "data/test_video.mp4"
 FPS = 30
 PIXELS_PER_METER = 10
 
